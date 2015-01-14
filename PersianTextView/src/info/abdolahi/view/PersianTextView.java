@@ -19,6 +19,7 @@ import info.abdolahi.persiantextview.R.styleable;
 import info.abdolahi.utils.PersianReshape;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 import android.content.Context;
@@ -87,7 +88,8 @@ public class PersianTextView extends TextView {
 	
 	@Override
 	public void setText(CharSequence text, BufferType type) {
-		if(android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB)
+		Locale current = getResources().getConfiguration().locale;
+		if(android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB && !"fa".contains(current.getLanguage()))
 			text = PersianReshape.reshape(String.valueOf(text));
 		super.setText(text, type);
 	}

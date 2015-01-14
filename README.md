@@ -7,7 +7,6 @@ creation boilerplate code with automatic Reshaping for andriod 2.3 and below (th
 #Screenshot
 ![Preview](https://dl.dropboxusercontent.com/u/34047574/shot1_demo.png)
 
-https://github.com/ragunathjawahar/android-typeface-textview
 
 #Quick Start
 -----------

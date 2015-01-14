@@ -2,11 +2,12 @@
 ----------------
 
 Persian Reshape with Typeface TextView allows you to specify custom fonts right in the XML and avoids typeface 
-creation boilerplate code with automatic Reshaping for andriod 2.3 and below.
+creation boilerplate code with automatic Reshaping for andriod 2.3 and below (thanks to [@ragunathjawahar](https://github.com/ragunathjawahar)).
 
 #Screenshot
 ![Preview](https://dl.dropboxusercontent.com/u/34047574/shot1_demo.png)
 
+https://github.com/ragunathjawahar/android-typeface-textview
 
 #Quick Start
 -----------
@@ -22,7 +23,7 @@ creation boilerplate code with automatic Reshaping for andriod 2.3 and below.
 
     <!-- 2. Replace <TextView> tags with <info.abdolahi.view.PersianTextView> tags -->
     <!-- 3. Specify the path to your custom font in the 'assets' folder
-            using the 'geekui:customTypeface' attribute -->
+            using the 'persianui:customFont' attribute -->
     <info.abdolahi.view.PersianTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,6 +49,3 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
-
-  [1]: https://github.com/aliab/Persian-TextView

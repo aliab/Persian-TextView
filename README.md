@@ -6,8 +6,6 @@ creation boilerplate code with automatic Reshaping for andriod 2.3 and below (th
 
 #Screenshot
 ![Preview](https://dl.dropboxusercontent.com/u/34047574/shot1_demo.png)
-
-
 #Quick Start
 -----------
 **Step 1 - Add PersianTextView as a library project**
